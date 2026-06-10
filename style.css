@@ -1,0 +1,73 @@
+body {
+    background-image: url("oficina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;    
+    font: normal 15pt Times;
+    color: white;
+}
+
+#item {
+    background: rgb(119, 210, 21);
+}
+
+h1 {
+    color: red(0, 0, 0);
+    text-align: center;
+    text-decoration:underline;
+}
+
+#list {
+    background: rgb(119, 210, 21);
+    color: black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px;
+    display: list-item;    
+    max-width:500px;    
+    margin: auto;
+    text-align: center;    
+    word-wrap: break-word;
+    list-style: none;
+}
+
+#botaoRemover {
+    background: rgb(230, 230, 22);
+}
+
+#botaoLimpar {
+    background: rgba(255, 0, 0, 0.802);
+}
+
+footer {
+    text-align: center;
+}
+
+#add {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 35px;
+}
+
+#adicionarItem {
+    background: rgb(119, 210, 21);
+}
+
+#bot {
+    text-align: center;
+}
+
+#tamanhoLista {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#remover {
+    background: rgb(230, 230, 22);
+}
+
+#item {
+    box-sizing: border-box;
+}

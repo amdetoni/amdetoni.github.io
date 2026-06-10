@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de compras</h1>  
+
+    <div id="add">Adicione a seguir um novo ítem na lista:
+        <input type="text" name="item" id="item">
+        <input type="button" value="Adicionar" id="adicionarItem" class="button" onclick="inserir()">
+    </div>
+
+    <p id="bot">
+    <input type="number" name="removerItem" id="remover">
+    <input type="button" value="Remover ítem apontado" id="botaoRemover" class="button" onclick="remover()">
+    <input type="button" value="Limpar lista" id="botaoLimpar" class="button" onclick="limpar()">
+    </p>
+
+    <p>
+    <div id="tamanhoLista"><b>Tamanho da lista</b></div>
+    </p>
+
+    <div id="list">Os ítens adicionados à lista serão listados aqui.</div>
+    <script src="script.js"></script>
+</body>
+</html>
